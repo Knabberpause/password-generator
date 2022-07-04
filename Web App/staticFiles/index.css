@@ -1,8 +1,9 @@
 body{
     background-color: rgba(76, 23, 161, 0.904);
     font-size: 90px;
-    color: rgba(0, 0, 0, 0.849);
+    color: rgba(231, 220, 220, 0.849);
     text-align: center;
+    margin: auto;
 }
 
 h1 {
@@ -13,11 +14,11 @@ h1 {
 
 h3 {
     font-family: 'Nunito', sans-serif;
-    font-size: 90px;
+    font-size: 75px;
     text-align: center;
 }
 
-h5 {
+.pwd {
     font-family: 'Nunito', sans-serif;
     font-size: 80px;
     text-align: center;
@@ -27,6 +28,13 @@ p {
     font-family: 'Nunito', sans-serif;
     font-size: 90px;
     text-align: center;
+}
+
+#link {
+    font-family: 'Nunito', sans-serif;
+    font-size: 85px;
+    text-align: center;
+    color:rgba(231, 220, 220, 0.849)
 }
 
 

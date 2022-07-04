@@ -10,6 +10,11 @@ app = Flask(__name__, template_folder='templateFiles', static_folder='staticFile
  
 @app.route('/')
 def index():
+    
+    return render_template('index.html')
+
+@app.route('/pwd')
+def pwd():
     length=random.randint(6,16)
     characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890():;,.-_=!@'
 
@@ -38,8 +43,9 @@ def index():
             passwordchar = random.choice(characters)
             pwd5 += passwordchar
     
-    return render_template('index.html', pwd1=pwd1,pwd2=pwd2, pwd3=pwd3, pwd4=pwd4, pwd5=pwd5)
-
+    return render_template('pwd.html', pwd1=pwd1,pwd2=pwd2, pwd3=pwd3, pwd4=pwd4, pwd5=pwd5)
+ 
+    
 
 if __name__=='__main__':
-    app.run()
+    app.run(debug=True)
