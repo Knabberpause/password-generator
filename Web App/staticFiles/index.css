@@ -1,0 +1,32 @@
+body{
+    background-color: rgba(76, 23, 161, 0.904);
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 110px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+h5 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 90px;
+    text-align: center;
+}
+
+
